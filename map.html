@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport"></meta>
-<title>NewtonQ2Fusion - Google Fusion Tables</title>
+<title>CooperQ2 - Google Fusion Tables</title>
 <style type="text/css">
 html, body, #googft-mapCanvas {
   height: 300px;
@@ -27,8 +27,8 @@ html, body, #googft-mapCanvas {
     mapDiv.style.width = isMobile ? '100%' : '500px';
     mapDiv.style.height = isMobile ? '100%' : '300px';
     var map = new google.maps.Map(mapDiv, {
-      center: new google.maps.LatLng(35.38393864639783, -78.39549291992188),
-      zoom: 7,
+      center: new google.maps.LatLng(35.06777848140802, -88.7027168125),
+      zoom: 4,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
     map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('googft-legend-open'));
@@ -39,12 +39,12 @@ html, body, #googft-mapCanvas {
       heatmap: { enabled: false },
       query: {
         select: "col7",
-        from: "1XiKifjpkJnmCZWFchJQ1-b4pSF5GChqzRmxnGPNV",
+        from: "1UoreOHTH86QO7ePl_NUyLrIwUq4pX_JCyoor1KpC",
         where: ""
       },
       options: {
-        styleId: 5,
-        templateId: 4
+        styleId: 2,
+        templateId: 2
       }
     });
 
